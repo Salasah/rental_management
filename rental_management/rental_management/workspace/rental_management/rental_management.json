@@ -1,0 +1,68 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"fbKQZIkw-z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rental Management</span>\",\"col\":12}},{\"id\":\"nG8Y4W62ga\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xOtBlxIl9f\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Item\",\"col\":3}},{\"id\":\"waN9zePREy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Contract \",\"col\":3}},{\"id\":\"tCQzMBbxYh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Order\",\"col\":3}},{\"id\":\"IOBHlsz_m4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Invoice\",\"col\":3}},{\"id\":\"p4qujJZ4EJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Delivery\",\"col\":3}},{\"id\":\"wjAV_8ErXR\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2023-10-26 12:04:57.981778",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fal fa-folder",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Rental Management",
+ "links": [],
+ "modified": "2025-05-27 15:39:32.349621",
+ "modified_by": "Administrator",
+ "module": "Rental Management",
+ "name": "Rental Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Delivery",
+   "link_to": "Delivery Note",
+   "stats_filter": "{\"rental_contract_id\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Contract ",
+   "link_to": "Contract",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Invoice",
+   "link_to": "Sales Invoice",
+   "stats_filter": "{\"rental_contract_id\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Order",
+   "link_to": "Sales Order",
+   "stats_filter": "{\"rental_contract_id\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Item",
+   "link_to": "Item",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Rental Management"
+}
